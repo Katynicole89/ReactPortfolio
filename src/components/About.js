@@ -1,12 +1,17 @@
 import React from 'react'
-// import coverImage from "../../assets/cover/cover-image.jpg";
+import coverImage from "../assets/icon.png";
 
-function Header() {
+function About() {
 
   return (
+    
     <section className="my-5" >
+      <div id="flex-row">
+      <img src={coverImage} className="" style={{ width: "25%" }} alt="cover" />
+
+      </div>
+      
       <h1 id="about">Who am I?</h1>
-      {/* <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" /> */}
       <div className="my-2">
         <p>
         Hello! My name is Katy, and I am a full stack developer!
@@ -16,4 +21,4 @@ function Header() {
   )
 }
 
-export default Header
+export default About;
