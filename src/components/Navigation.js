@@ -29,9 +29,9 @@ function Nav() {
             </span>
           </li>
           <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>
+            <a href="#contact" span onClick={() => handleClick()}>
               Contact
-            </span>
+            </a>
           </li>
          
         </ul>

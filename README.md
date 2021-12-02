@@ -2,6 +2,8 @@
 
 Create a portfolio using React.
 
+![Screenshot](screenshot.jpg)
+
 ## Acceptance Criteria 
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
